@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { NextSeo } from "next-seo";
 import { getClient } from "@/utils/sanity";
 import Header from "@/components/Header";
@@ -16,12 +15,6 @@ export default function HomePage({ data }) {
   return (
     <>
       <NextSeo title={meta.title} description={meta.description} />
-      <Head>
-        <meta
-          name="facebook-domain-verification"
-          content="xw8jvw234zimj6qlplgib7xsv6luyq"
-        />
-      </Head>
       <Header navItems={menu} contacts={contacts} />
       <Main className="space-y-16">
         <Services
