@@ -11,6 +11,10 @@ class MyDocument extends Document {
       <Html lang="uk">
         <Head>
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+          <meta
+            name="facebook-domain-verification"
+            content="xw8jvw234zimj6qlplgib7xsv6luyq"
+          />
         </Head>
         <body>
           <Main />
